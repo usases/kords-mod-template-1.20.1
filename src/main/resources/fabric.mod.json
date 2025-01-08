@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kordsmod",
+	"version": "${version}",
+	"name": "Kords Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"usases!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kordsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.usases.kordsmod.KordsMod"
+		],
+		"client": [
+			"net.usases.kordsmod.KordsModClient"
+		],
+		"fabric-datagen": [
+			"net.usases.kordsmod.KordsModDataGenerator"
+		]
+	},
+	"mixins": [
+		"kordsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
