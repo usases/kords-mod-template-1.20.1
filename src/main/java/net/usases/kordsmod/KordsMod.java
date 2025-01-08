@@ -2,6 +2,9 @@ package net.usases.kordsmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.usases.kordsmod.displayMods.CordDisplay;
+import net.usases.kordsmod.displayMods.FpsDisplayMod;
+import net.usases.kordsmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +14,8 @@ public class KordsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		new FpsDisplayMod();
+		new CordDisplay();
 	}
 }
