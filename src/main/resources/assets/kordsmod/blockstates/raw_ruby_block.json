@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kordsmod:block/raw_ruby_block"
+    }
+  }
+}

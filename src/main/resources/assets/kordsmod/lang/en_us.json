@@ -1,4 +1,9 @@
 {
   "item.kordsmod.ruby": "Ruby",
-  "item.kordsmod.coin": "Coin"
+  "item.kordsmod.coin": "Coin",
+
+  "block.kordsmod.ruby_block": "Block of Ruby",
+  "block.kordsmod.raw_ruby_block": "Block of raw Ruby",
+
+  "itemgroup.ruby": "Ruby Group"
 }

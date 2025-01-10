@@ -1,4 +1,9 @@
 {
   "item.kordsmod.ruby": "Руби",
-  "item.kordsmod.coin": "Коин"
+  "item.kordsmod.coin": "Коин",
+
+  "block.kordsmod.ruby_block": "Рубиновый блок",
+  "block.kordsmod.raw_ruby_block": "Необработанный рубиновый блок",
+
+  "itemgroup.ruby": "Группа рубинов"
 }

@@ -14,11 +14,7 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item COIN = registerItem("coin", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
 
-        entries.add(RUBY);
-        entries.add(COIN);
-    }
 
 
     private static Item registerItem(String name, Item item){
@@ -27,6 +23,6 @@ public class ModItems {
     public static void registerModItems(){
         KordsMod.LOGGER.info("Registering mod items for "+ KordsMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
     }
 }
