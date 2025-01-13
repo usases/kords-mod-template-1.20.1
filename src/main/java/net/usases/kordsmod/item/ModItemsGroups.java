@@ -24,7 +24,5 @@ public class ModItemsGroups {
                     }).build());
 
 
-    public static void registerItemGroup(){
-        KordsMod.LOGGER.info("registering items groups for "+ KordsMod.MOD_ID);
-    }
+
 }
